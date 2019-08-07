@@ -22,3 +22,8 @@ The Dockerfile above runs the following:
 5. Run your Docker image:
    - sudo docker run netskope
   ![alt text](https://github.com/katatafish5/docker_netskopesumo/blob/master/docker_run.png "Running the Docker image")
+6. If the container hangs for any reason:
+   - sudo docker prune <container id>
+7. Setup a crontab to run the container every 5 minutes
+   - */5 * * * * root   /usr/bin/docker run netskope
+   - 30  * * * * root   /usr/bin/docker container prune -f
