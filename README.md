@@ -1,5 +1,5 @@
-# Sumo Netskope Colector Docker Image
-## A Dockerfile that runs your SumoLogic Netskope collector
+# Sumo Netskope Collector Docker Image
+## A Docker container that runs your SumoLogic Netskope collector
 
 The Dockerfile above runs the following:
 - Python 3.7 in Debian Strech
