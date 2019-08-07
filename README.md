@@ -18,7 +18,7 @@ The Dockerfile above runs the following:
 3. Make any other adjustments to your required collector settings in the netskope.yaml
 4. Build your Docker image:
    - sudo docker build -t netskope
-   
+   ![alt text](https://github.com/katatafish5/docker_netskopesumo/blob/master/docker_build.png "Building the Docker image")
 5. Run your Docker image:
    - sudo docker run netskope
- 
+  ![alt text](https://github.com/katatafish5/docker_netskopesumo/blob/master/docker_run.png "Running the Docker image")
